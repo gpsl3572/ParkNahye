@@ -53,6 +53,7 @@ header, section, footer{
 
 @media screen and (max-width:500px) {
 
+
     header, .sec, footer{
         padding: 0 20px;
         box-sizing: border-box;
@@ -66,7 +67,7 @@ header, section, footer{
 
     .sub_title{
         text-align: center;
-        font-size: 2.5em;
+        font-size: 1.5em;
         letter-spacing: -1px;
         margin: 50px;
     }
