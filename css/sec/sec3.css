@@ -8,6 +8,10 @@
 
 .sec3_conwrap{
     width: 100%;
+}
+
+.sec3_conbox{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
