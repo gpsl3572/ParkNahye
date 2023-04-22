@@ -10,6 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Damion&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
 
 
     <link rel="stylesheet" href="./css/style.css">
@@ -89,7 +94,7 @@
                 <div class="sec2_conwrap">
                 <!--  -->
                     
-                    <div class="sec2_con1 sec2_con">
+                    <div class="sec2_con1 sec2_con" data-aos="fade-up">
                         <a href="#">
                             <div class="sec2_con1img sec2_conimg"></div>
                             <div class="sec2_context">
@@ -98,7 +103,7 @@
                         </a>
                     </div>
 
-                    <div class="sec2_con2 sec2_con">
+                    <div class="sec2_con2 sec2_con" data-aos="fade-up">
                         <a href="#">
                             <div class="sec2_con2img sec2_conimg"></div>
                             <div class="sec2_context">
@@ -107,7 +112,7 @@
                         </a>
                     </div>
 
-                    <div class="sec2_con3 sec2_con">
+                    <div class="sec2_con3 sec2_con" data-aos="fade-up">
                         <a href="#">
                             <div class="sec2_con3img sec2_conimg"></div>
                             <div class="sec2_context">
@@ -118,6 +123,39 @@
 
                 <!--  -->
                 </div>
+
+                <div class="sec2_mo_conwrap">
+                    <!--  -->
+                        
+                        <div class="sec2_mocon1 sec2_mocon" data-aos="fade-up">
+                            <a href="#">
+                                <div class="sec2_mocon1img sec2_moconimg"></div>
+                                <div class="sec2_mocontext">
+                                    Vase & Vessel
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="sec2_mocon2 sec2_mocon" data-aos="fade-up">
+                            <a href="#">
+                                <div class="sec2_mocon2img sec2_moconimg"></div>
+                                <div class="sec2_mocontext">
+                                    Bowl & Stand
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="sec2_mocon3 sec2_mocon" data-aos="fade-up">
+                            <a href="#">
+                                <div class="sec2_mocon3img sec2_moconimg"></div>
+                                <div class="sec2_mocontext">
+                                    Cup
+                                </div>
+                            </a>
+                        </div>
+    
+                    <!--  -->
+                    </div>
 
 
         </section>
@@ -130,31 +168,66 @@
 
             <div class="sec3_conwrap">
 
-                
                <div class="sec3_conbox">
 
-                <a href="#">
+                
                     <div class="sec3_con sec3_con1">
-                        <div class="sec3_text">Flowing</div>
+                        <a href="#">
+                            <div class="sec3_text">Flowing</div>
+                        </a>
                     </div>
-                </a>
+    
 
-                <a href="#">
                     <div class="sec3_con sec3_con2">
-                        <div class="sec3_text">Still</div>
+                        <a href="#">
+                            <div class="sec3_text">Still</div>
+                        </a>
                     </div>
-                </a>
-
-                <a href="#">
+            
+           
                     <div class="sec3_con sec3_con3">
-                        <div class="sec3_text">Life</div>
+                        <a href="#">
+                            <div class="sec3_text">Life</div>
+                        </a>
                     </div>
-                </a>
-
-
+    
                </div>
 
             </div>
+
+            <div class="sec3_moconwrap swiper mySwiper">
+
+                
+                <div class="sec3_moconbox swiper-wrapper">
+ 
+                 
+                     <div class="sec3_mocon sec3_mocon1 swiper-slide">
+                         <a href="#">
+                             <div class="sec3_text">Flowing</div>
+                         </a>
+                     </div>
+     
+ 
+                
+                     <div class="sec3_mocon sec3_mocon2 swiper-slide">
+                         <a href="#">
+                             <div class="sec3_text">Still</div>
+                         </a>
+                     </div>
+               
+ 
+            
+                     <div class="sec3_mocon sec3_mocon3 swiper-slide">
+                         <a href="#">
+                             <div class="sec3_text">Life</div>
+                         </a>
+                     </div>
+ 
+                </div>
+ 
+                <div class="swiper-pagination"></div>
+ 
+             </div>
 
         </section>
         <!-- sec3 end -->
@@ -170,21 +243,15 @@
                 Made by NaHye<span>.</span>
             </h2>
 
-            <!-- <div class="more_btn">
-                <a href="#">
-                     View More
-                </a>
-             </div> -->
-
          </div>
 
          <div class="sec4_conwrap">
 
-            <div class="sec4_context">Flowing</div>
+            <div class="sec4_context" data-aos="fade-up">Flowing</div>
 
             <a href="#"><div class="sec4_conimg"></div></a>
 
-            <div class="sec4_context">Still-Life</div>
+            <div class="sec4_context" data-aos="fade-up" data-aos-delay="500">Still-Life</div>
 
          </div>
 
@@ -221,6 +288,18 @@
     <!-- wrap end -->
     </div>
 
+
+    <script>AOS.init();</script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: false,
+            spaceBetween: 30,
+            slidesPerView: 1.2,
+            pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
 
 </body>
 </html>

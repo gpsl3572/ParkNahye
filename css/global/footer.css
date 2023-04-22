@@ -47,7 +47,8 @@ footer{
     }
 
     .f_textbox{
-        font-size: 1em;
+        text-align: center;
+        font-size: 0.8em;
     }
 
     .f_text{

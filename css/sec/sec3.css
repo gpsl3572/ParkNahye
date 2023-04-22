@@ -21,19 +21,38 @@
     border-radius: 80px 0 80px 0;
     width: 27vw;
     height: 650px;
-    padding: 80px 0 0 50px;
     box-sizing: border-box;
+    overflow: hidden;
+    transition: .3s;
 }
 
-.sec3_con1{background: url(../../img/sec3_con1bg.jpg) no-repeat center / cover; }
-.sec3_con2{background: url(../../img/sec3_con2bg.jpg) no-repeat center / cover; }
-.sec3_con3{background: url(../../img/sec3_con3bg.jpg) no-repeat center / cover; }
+.sec3_con a{
+    padding: 80px 0 0 50px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.sec3_con1, .sec3_mocon1{background: url(../../img/sec3_con1bg.jpg) no-repeat center / cover; }
+.sec3_con2, .sec3_mocon2{background: url(../../img/sec3_con2bg.jpg) no-repeat center / cover; }
+.sec3_con3, .sec3_mocon3{background: url(../../img/sec3_con3bg.jpg) no-repeat center / cover; }
 
 .sec3_text{
     font-size: 1.3em;
     font-weight: 900;
     color: #fff;
 }
+
+.sec3_con:hover{
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 0 15px rgba(22, 22, 22, 0.164);
+}
+
+.sec3_moconwrap{
+    display: none;
+}
+
 
 
 @media screen and (max-width:500px) {
@@ -43,13 +62,19 @@
     }
 
     .sec3_conwrap{
+        display: none;
+    }
+
+    .sec3_moconwrap{
+        display: block;
         width: 100%;
-        height: 560px;
+        height: 630px;
         position: relative;
         overflow: hidden;
     }
 
-    .sec3_conbox{
+    .sec3_moconbox{
+        width: 100%;
         position: absolute;
         left: 0; top: 0;
         display: flex;
@@ -57,23 +82,29 @@
         align-items: center;
     }
 
+
     .sec3 .sub_title{
         margin-bottom: 50px;
     }
 
-    .sec3_con{
+    .sec3_mocon{
         border-radius: 80px 0 80px 0;
-        width: 75vw;
         height: 550px;
         padding: 80px 0 0 50px;
         box-sizing: border-box;
-        margin-right: 30px;
     }
 
-    .sec3_con3{
+    .sec3_mocon3{
         margin-right: 0;
     }
     
+    .swiper-pagination{
+        display: block;
+    }
+
+    .swiper-pagination-bullet-active{
+        --swiper-theme-color: #ff8100;
+    }
 
 /* media end */
 }

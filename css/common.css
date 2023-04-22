@@ -27,7 +27,7 @@ header, section, footer{
     width: 230px;
     height: 60px;
     border-radius: 50px;
-    border: 0.5px solid  rgb(65, 65, 65);
+    border: 0.5px solid  rgba(122, 122, 122, 0.514);
     display: flex;
     align-items: center;
     justify-content: center;

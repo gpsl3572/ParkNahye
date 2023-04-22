@@ -23,7 +23,7 @@ header .menu{
     width: 350px;
 }
 
-.mo_menubtn, .mo_menu, .mo_delbtn{
+.mo_menubtn, .mo_menu, .mo_delbtn, .mo_menuwrap{
     display: none;
 }
 
@@ -44,12 +44,12 @@ header .menu{
     }
 
     .mo_menuwrap{
-        display: none;
+        display: ;
         left: 0; top: 0;
         width: 100vw;
         height: 100vh;
         z-index: 999;
-        background-color: #fce0d2;
+        background-color: #F2EDEA;
         position: absolute;
     }
 
@@ -60,6 +60,7 @@ header .menu{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        font-size: 1.5em;
     }
 
     .mo_delbtn{
