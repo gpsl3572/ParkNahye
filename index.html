@@ -33,10 +33,10 @@
             </div>
 
             <ul class="menu">
-                <li><a href="#">about</a></li>
-                <li><a href="#">seulpture</a></li>
-                <li><a href="#">stockists</a></li>
-                <li><a href="#">community</a></li>
+                <li><a href="#sec1">About</a></li>
+                <li><a href="#sec2">Seulpture</a></li>
+                <li><a href="#sec3">Stockists</a></li>
+                <li><a href="#sec4">Community</a></li>
             </ul>
 
             <div class="mo_menubtn">
@@ -51,10 +51,10 @@
                 </div>
 
                 <ul class="mo_menu">
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">seulpture</a></li>
-                    <li><a href="#">stockists</a></li>
-                    <li><a href="#">community</a></li>
+                    <li class="mo_menutext"><a href="#sec1">About</a></li>
+                    <li class="mo_menutext"><a href="#sec2">Seulpture</a></li>
+                    <li class="mo_menutext"><a href="#sec3">Stockists</a></li>
+                    <li class="mo_menutext"><a href="#sec4">Community</a></li>
                 </ul>
 
            </div>
@@ -62,24 +62,24 @@
 
         </header>
 
-        <section class="sec1 sec">
+        <section class="sec1 sec" id="sec1">
 
-            <h1 class="sec1_title">
+            <h1 class="sec1_title"  data-aos="fade-up">
                 Serenity In<br/>
                 Flexible Flow
             </h1>
 
 
-            <div class="more_btn">
+            <div class="more_btn" data-aos="fade-up" data-aos-delay="500" >
                <a href="#">
-                    View More
+                   View More
                </a>
             </div>
 
 
         </section>
         <!-- sec1 end -->
-        <section class="sec2 sec">
+        <section class="sec2 sec" id="sec2">
 
             <div class="sec2_bg sec_bg">
                 <img src="./img/sec2_bg.png" alt="">
@@ -160,7 +160,7 @@
 
         </section>
         <!-- sec2 end -->
-        <section class="sec3 sec">
+        <section class="sec3 sec" id="sec3">
 
             <h2 class="sub_title">
                 Artist Hahye<span>.</span>
@@ -171,21 +171,21 @@
                <div class="sec3_conbox">
 
                 
-                    <div class="sec3_con sec3_con1">
+                    <div class="sec3_con sec3_con1"  data-aos="fade-up">
                         <a href="#">
                             <div class="sec3_text">Flowing</div>
                         </a>
                     </div>
     
 
-                    <div class="sec3_con sec3_con2">
+                    <div class="sec3_con sec3_con2"  data-aos="fade-up" data-aos-delay="300">
                         <a href="#">
                             <div class="sec3_text">Still</div>
                         </a>
                     </div>
             
            
-                    <div class="sec3_con sec3_con3">
+                    <div class="sec3_con sec3_con3"  data-aos="fade-up" data-aos-delay="700">
                         <a href="#">
                             <div class="sec3_text">Life</div>
                         </a>
@@ -231,7 +231,7 @@
 
         </section>
         <!-- sec3 end -->
-        <section class="sec4 sec">
+        <section class="sec4 sec" id="sec4">
 
             <div class="sec4_bg sec_bg">
                 <img src="./img/sec2_bg.png" alt="">
@@ -289,21 +289,7 @@
     </div>
 
 
-    <script>
-    
-    AOS.init();
-    
-    var swiper = new Swiper(".mySwiper", {
-            loop: false,
-            spaceBetween: 30,
-            slidesPerView: 1.2,
-            pagination: {
-            el: ".swiper-pagination",
-          },
-        });
-    
-    
-    </script>
+    <script src="./js/main.js"></script>
 
 
 </body>

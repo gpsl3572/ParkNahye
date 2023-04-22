@@ -64,15 +64,21 @@ header .menu{
     }
 
     .mo_delbtn{
-        margin: 20px 20px 50px 0;
+        margin: 20px;
+       float: right;
         display: flex;
         justify-content: end;
         font-size: 1.6em;
     }
 
+    .mo_delbtn .fa-solid{
+        cursor: pointer;
+    }
+
+    .pop{
+        display: block;
+    }
    
-
-
 
 /* media end */
 }
