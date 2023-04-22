@@ -44,7 +44,7 @@ header .menu{
     }
 
     .mo_menuwrap{
-        display: ;
+        display: none;
         left: 0; top: 0;
         width: 100vw;
         height: 100vh;
@@ -69,6 +69,10 @@ header .menu{
         justify-content: end;
         font-size: 1.6em;
     }
+
+   
+
+
 
 /* media end */
 }

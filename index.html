@@ -289,9 +289,11 @@
     </div>
 
 
-    <script>AOS.init();</script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
+    
+    AOS.init();
+    
+    var swiper = new Swiper(".mySwiper", {
             loop: false,
             spaceBetween: 30,
             slidesPerView: 1.2,
@@ -299,7 +301,10 @@
             el: ".swiper-pagination",
           },
         });
-      </script>
+    
+    
+    </script>
+
 
 </body>
 </html>
