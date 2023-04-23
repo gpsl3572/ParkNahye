@@ -44,7 +44,7 @@
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:768px) {
 
     .sec2_conwrap{
         display: none;

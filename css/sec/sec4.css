@@ -37,7 +37,7 @@
     background: url(../../img/sec42_img.png) no-repeat center / 105%;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:768px) {
 
     .sec4{
         padding-top: 0;
